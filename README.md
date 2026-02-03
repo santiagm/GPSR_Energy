@@ -1,8 +1,6 @@
----
+
 title: "Evaluación del impacto de potencia de transmisión en GPSR (OMNeT++/INET) con Métricas de Energía"
-author: "Mateo Eduardo Bermeo Pesantez, Santiago Andrés Guillén Malla, Vicente Paul Jiménez Ávila"
-output: github_document
----
+
 
 ## Resumen del proyecto
 
