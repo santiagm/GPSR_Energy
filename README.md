@@ -5,7 +5,7 @@
 ## Resumen del proyecto
 
 Este repositorio reproduce y extiende el escenario `manetrouting/gpsr` de INET para evaluar el impacto de parámetros físicos (especialmente potencia de transmisión) sobre el desempeño de GPSR en una red MANET.  
-Además, se instrumenta y analiza el **consumo energético** usando el modelo de energía de INET (`SimpleEpEnergyStorage` + consumidor de energía de radio). :contentReference[oaicite:1]{index=1}
+Además, se instrumenta y analiza el **consumo energético** usando el modelo de energía de INET (`SimpleEpEnergyStorage` + consumidor de energía de radio). 
 
 ---
 
@@ -29,11 +29,11 @@ Archivos típicos del ejemplo:
 **Nombre (en Result Analysis):** `Residual energy capacity`
 
 **Qué mide:** la energía restante (J) en el módulo `SimpleEpEnergyStorage` de cada nodo a lo largo del tiempo.  
-En el análisis, esta curva debe verse **descendente** (consumo progresivo), y permite comparar **pendientes** entre nodos para inferir cuáles actúan más como *forwarders*. :contentReference[oaicite:1]{index=1}
+En el análisis, esta curva debe verse **descendente** (consumo progresivo), y permite comparar **pendientes** entre nodos para inferir cuáles actúan más como *forwarders*. 
 
 **Interpretación rápida:**
 - Pendiente más pronunciada ⇒ mayor actividad (TX/RX + procesamiento).
-- Nodos de tránsito consumen más que un emisor “ligero”. :contentReference[oaicite:2]{index=2}
+- Nodos de tránsito consumen más que un emisor “ligero”. 
 
 ---
 
@@ -52,5 +52,5 @@ En el reporte se muestra un ejemplo tras **360 s**:
 | Host 0 | 50.0000              | 48.7565           | 1.2435            |
 | Host 10| 50.0000              | 47.9116           | 2.0884            |
 
-**Lectura clave:** `Host 10` consume más porque actúa como nodo de reenvío central (forwarder), manejando más tráfico y beacons que el emisor. :contentReference[oaicite:3]{index=3}
+**Lectura clave:** `Host 10` consume más porque actúa como nodo de reenvío central (forwarder), manejando más tráfico y beacons que el emisor. 
 
