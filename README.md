@@ -1,5 +1,5 @@
 
-##"Evaluación del impacto de potencia de transmisión en GPSR (OMNeT++/INET) con Métricas de Energía"
+## Evaluación del impacto de potencia de transmisión en GPSR (OMNeT++/INET) con Métricas de Energía
 
 
 ## Resumen del proyecto
