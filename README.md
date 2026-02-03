@@ -54,22 +54,3 @@ En el reporte se muestra un ejemplo tras **360 s**:
 
 **Lectura clave:** `Host 10` consume más porque actúa como nodo de reenvío central (forwarder), manejando más tráfico y beacons que el emisor. :contentReference[oaicite:3]{index=3}
 
----
-
-## (Opcional) Fórmula conceptual usada en el reporte
-
-La energía residual puede expresarse como:
-
-\[
-E_{\text{residual}} = E_{\text{initial}} - \int P_{\text{consumed}}(t)\,dt
-\]
-
-donde \(P_{\text{consumed}}(t)\) integra el gasto de la radio en TX/RX (modelo de consumo basado en estados). :contentReference[oaicite:4]{index=4}
-
----
-
-## Ejecución rápida
-
-1. Compila en modo release (recomendado para barridos largos):
-   ```bash
-   make MODE=release
